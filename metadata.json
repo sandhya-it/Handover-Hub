@@ -1,0 +1,6 @@
+{
+  "name": "Handover Hub",
+  "description": "Evidence-first AI-powered knowledge continuity platform that transforms scattered project documents into verified, role-specific handovers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

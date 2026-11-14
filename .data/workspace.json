@@ -1,0 +1,1890 @@
+{
+  "users": [
+    {
+      "id": "usr-admin",
+      "name": "Sandhya S",
+      "email": "admin@handoverhub.dev",
+      "password": "Admin@2026",
+      "role": "Administrator",
+      "title": "Team Lead & Platform Administrator",
+      "department": "AetherGrid Governance",
+      "avatarInitials": "SS",
+      "active": true
+    },
+    {
+      "id": "usr-reviewer",
+      "name": "Monishwaran B",
+      "email": "reviewer@handoverhub.dev",
+      "password": "Review@2026",
+      "role": "Project Reviewer",
+      "title": "Principal Systems Reviewer",
+      "department": "Campus Infrastructure Engineering",
+      "avatarInitials": "MB",
+      "active": true
+    },
+    {
+      "id": "usr-departing",
+      "name": "Pooja Ravi",
+      "email": "departing@handoverhub.dev",
+      "password": "Depart@2026",
+      "role": "Departing Member",
+      "title": "Lead Backend & IoT Engineer",
+      "department": "Smart Campus Platform",
+      "avatarInitials": "PR",
+      "active": true
+    },
+    {
+      "id": "usr-incoming",
+      "name": "Pooja G",
+      "email": "incoming@handoverhub.dev",
+      "password": "Receive@2026",
+      "role": "Incoming Member",
+      "title": "Incoming Platform Engineer",
+      "department": "Smart Campus Platform",
+      "avatarInitials": "PG",
+      "active": true
+    },
+    {
+      "id": "usr-arjun",
+      "name": "Arjun Mehta",
+      "email": "arjun.mehta@campus.edu",
+      "password": "User@2026",
+      "role": "Departing Member",
+      "title": "Security & Compliance Lead",
+      "department": "Information Security",
+      "avatarInitials": "AM",
+      "active": true
+    },
+    {
+      "id": "usr-kavya",
+      "name": "Kavya Nair",
+      "email": "kavya.nair@campus.edu",
+      "password": "User@2026",
+      "role": "Project Reviewer",
+      "title": "Frontend & Mobile Lead",
+      "department": "Digital Campus Experience",
+      "avatarInitials": "KN",
+      "active": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-smart-campus",
+      "name": "Smart Campus Management System",
+      "description": "Unified IoT classroom occupancy, RFID smart-card attendance, SSO identity federation, and energy telemetry platform across 14 academic blocks.",
+      "leadUserId": "usr-admin",
+      "leadName": "Sandhya S",
+      "status": "In Progress",
+      "startDate": "2026-06-15",
+      "expectedEndDate": "2026-12-20",
+      "departingMemberId": "usr-departing",
+      "incomingMemberId": "usr-incoming",
+      "createdAt": "2026-06-15T09:00:00Z",
+      "updatedAt": "2026-11-12T16:40:00Z",
+      "members": [
+        {
+          "userId": "usr-admin",
+          "name": "Sandhya S",
+          "email": "admin@handoverhub.dev",
+          "role": "Administrator",
+          "projectRole": "Program Lead",
+          "addedAt": "2026-06-15T09:00:00Z"
+        },
+        {
+          "userId": "usr-reviewer",
+          "name": "Monishwaran B",
+          "email": "reviewer@handoverhub.dev",
+          "role": "Project Reviewer",
+          "projectRole": "Technical Reviewer",
+          "addedAt": "2026-06-16T10:30:00Z"
+        },
+        {
+          "userId": "usr-departing",
+          "name": "Pooja Ravi",
+          "email": "departing@handoverhub.dev",
+          "role": "Departing Member",
+          "projectRole": "Outgoing Backend & IoT Lead",
+          "addedAt": "2026-06-15T09:00:00Z"
+        },
+        {
+          "userId": "usr-incoming",
+          "name": "Pooja G",
+          "email": "incoming@handoverhub.dev",
+          "role": "Incoming Member",
+          "projectRole": "Incoming Platform Owner",
+          "addedAt": "2026-11-01T11:00:00Z"
+        },
+        {
+          "userId": "usr-kavya",
+          "name": "Kavya Nair",
+          "email": "kavya.nair@campus.edu",
+          "role": "Project Reviewer",
+          "projectRole": "Mobile & Portal Lead",
+          "addedAt": "2026-06-20T09:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "proj-library-sync",
+      "name": "Autonomous Library Inventory Sync",
+      "description": "Real-time UHF RFID book-shelf reconciliation pipeline integrating central catalog APIs with mobile librarian scanners.",
+      "leadUserId": "usr-reviewer",
+      "leadName": "Monishwaran B",
+      "status": "Active",
+      "startDate": "2026-08-01",
+      "expectedEndDate": "2027-01-30",
+      "departingMemberId": "usr-arjun",
+      "incomingMemberId": "usr-incoming",
+      "createdAt": "2026-08-01T08:30:00Z",
+      "updatedAt": "2026-11-10T14:20:00Z",
+      "members": [
+        {
+          "userId": "usr-reviewer",
+          "name": "Monishwaran B",
+          "email": "reviewer@handoverhub.dev",
+          "role": "Project Reviewer",
+          "projectRole": "Reviewer",
+          "addedAt": "2026-08-01T08:30:00Z"
+        },
+        {
+          "userId": "usr-arjun",
+          "name": "Arjun Mehta",
+          "email": "arjun.mehta@campus.edu",
+          "role": "Departing Member",
+          "projectRole": "Integration Engineer",
+          "addedAt": "2026-08-01T08:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "proj-energy-telemetry",
+      "name": "Campus Energy Telemetry Migration",
+      "description": "Migration of legacy BACnet sub-metering gateways across hostels and labs to time-series telemetry clusters.",
+      "leadUserId": "usr-departing",
+      "leadName": "Pooja Ravi",
+      "status": "Blocked",
+      "startDate": "2026-07-10",
+      "expectedEndDate": "2026-12-05",
+      "departingMemberId": "usr-departing",
+      "incomingMemberId": "usr-incoming",
+      "createdAt": "2026-07-10T10:00:00Z",
+      "updatedAt": "2026-11-08T17:15:00Z",
+      "members": [
+        {
+          "userId": "usr-departing",
+          "name": "Pooja Ravi",
+          "email": "departing@handoverhub.dev",
+          "role": "Departing Member",
+          "projectRole": "Telemetry Architect",
+          "addedAt": "2026-07-10T10:00:00Z"
+        },
+        {
+          "userId": "usr-reviewer",
+          "name": "Monishwaran B",
+          "email": "reviewer@handoverhub.dev",
+          "role": "Project Reviewer",
+          "projectRole": "Approver",
+          "addedAt": "2026-07-10T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "proj-sso-v1",
+      "name": "Student Portal SSO v1 Rollout",
+      "description": "Completed SAML 2.0 to OIDC identity federation rollout for 18,400 active students and faculty accounts.",
+      "leadUserId": "usr-kavya",
+      "leadName": "Kavya Nair",
+      "status": "Completed",
+      "startDate": "2026-03-01",
+      "expectedEndDate": "2026-10-15",
+      "departingMemberId": "usr-arjun",
+      "incomingMemberId": "usr-incoming",
+      "createdAt": "2026-03-01T09:00:00Z",
+      "updatedAt": "2026-10-18T12:00:00Z",
+      "members": [
+        {
+          "userId": "usr-kavya",
+          "name": "Kavya Nair",
+          "email": "kavya.nair@campus.edu",
+          "role": "Project Reviewer",
+          "projectRole": "Project Lead",
+          "addedAt": "2026-03-01T09:00:00Z"
+        },
+        {
+          "userId": "usr-incoming",
+          "name": "Pooja G",
+          "email": "incoming@handoverhub.dev",
+          "role": "Incoming Member",
+          "projectRole": "Incoming Operations Owner",
+          "addedAt": "2026-10-10T09:00:00Z"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-001",
+      "projectId": "proj-smart-campus",
+      "filename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "fileType": "pdf",
+      "sizeBytes": 428160,
+      "uploadedByUserId": "usr-departing",
+      "uploadedByName": "Pooja Ravi",
+      "uploadedAt": "2026-10-15T10:15:00Z",
+      "status": "Analyzed",
+      "rawText": "[Page 1]\nSmart Campus Management System — Architecture Specification v2.1. Decision DEC-01: Adopt PostgreSQL 16 with TimescaleDB extension as the unified telemetry and relational store instead of maintaining separate MongoDB and MySQL clusters. Rationale: Consolidating onto PostgreSQL eliminates cross-database sync lag during peak class-change RFID bursts and reduces operational maintenance overhead for the two-person DevOps team.\n\n[Page 2]\nIoT Ingestion & Security Architecture. Decision DEC-02: Migrate classroom occupancy sensors from HTTP polling to EMQX MQTT broker over TLS. Production MQTT broker runs on TLS port 8883 with mutual client certificates issued by the Campus Internal PKI. Dependency DEP-01: Firmware v3.4 OTA rollout depends on Campus Internal PKI issuing 420 device X.509 certificates before block deployment.\n\n[Page 3]\nIdentity & API Gateway Layer. Decision DEC-03: Replace custom JWT session issuer with University Central OIDC Federation via Kong API Gateway. Rationale: Central OIDC federation enforces university-wide MFA and instant student graduation revocation without duplicating credential tables. Technical Setup: Staging API gateway is deployed at https://gw-staging.smartcampus.edu with PostgreSQL connection string stored in Vault path kv/smartcampus/staging.\n\n[Page 4]\nEvent Bus & Alerting. Dependency DEP-02: Real-time occupancy dashboard WebSocket alerts depend on Redis 7.2 Pub/Sub cluster remaining pinned in ap-south-1 availability zone A. Important Contact: University Network Operations Center (NOC) Lead Dr. Ramesh Iyer (noc-lead@campus.edu, ext. 4410) manages VLAN 42 firewall whitelisting for IoT gateways.",
+      "chunks": [
+        {
+          "location": "Page 1",
+          "text": "Smart Campus Management System — Architecture Specification v2.1. Decision DEC-01: Adopt PostgreSQL 16 with TimescaleDB extension as the unified telemetry and relational store instead of maintaining separate MongoDB and MySQL clusters. Rationale: Consolidating onto PostgreSQL eliminates cross-database sync lag during peak class-change RFID bursts and reduces operational maintenance overhead for the two-person DevOps team."
+        },
+        {
+          "location": "Page 2",
+          "text": "IoT Ingestion & Security Architecture. Decision DEC-02: Migrate classroom occupancy sensors from HTTP polling to EMQX MQTT broker over TLS. Production MQTT broker runs on TLS port 8883 with mutual client certificates issued by the Campus Internal PKI. Dependency DEP-01: Firmware v3.4 OTA rollout depends on Campus Internal PKI issuing 420 device X.509 certificates before block deployment."
+        },
+        {
+          "location": "Page 3",
+          "text": "Identity & API Gateway Layer. Decision DEC-03: Replace custom JWT session issuer with University Central OIDC Federation via Kong API Gateway. Rationale: Central OIDC federation enforces university-wide MFA and instant student graduation revocation without duplicating credential tables. Technical Setup: Staging API gateway is deployed at https://gw-staging.smartcampus.edu with PostgreSQL connection string stored in Vault path kv/smartcampus/staging."
+        },
+        {
+          "location": "Page 4",
+          "text": "Event Bus & Alerting. Dependency DEP-02: Real-time occupancy dashboard WebSocket alerts depend on Redis 7.2 Pub/Sub cluster remaining pinned in ap-south-1 availability zone A. Important Contact: University Network Operations Center (NOC) Lead Dr. Ramesh Iyer (noc-lead@campus.edu, ext. 4410) manages VLAN 42 firewall whitelisting for IoT gateways."
+        }
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "projectId": "proj-smart-campus",
+      "filename": "Sprint_14_Task_Export.csv",
+      "fileType": "csv",
+      "sizeBytes": 18420,
+      "uploadedByUserId": "usr-departing",
+      "uploadedByName": "Pooja Ravi",
+      "uploadedAt": "2026-10-26T14:20:00Z",
+      "status": "Analyzed",
+      "rawText": "[Row 1]\nTaskID: TSK-101 | Title: Provision PostgreSQL 16 + TimescaleDB cluster | Owner: Pooja Ravi | Status: Completed | Deadline: 2026-10-10 | Notes: Primary and read-replica active in staging.\n\n[Row 2]\nTaskID: TSK-102 | Title: Configure Kong Gateway rate-limiting rules | Owner: Pooja Ravi | Status: Completed | Deadline: 2026-10-18 | Notes: Verified 1,200 req/s burst ceiling.\n\n[Row 3]\nTaskID: TSK-103 | Title: Campus SSO & API Gateway integration | Owner: Pooja Ravi | Status: Completed | Deadline: 2026-10-25 | Notes: Marked done by sprint script after OIDC plugin install.\n\n[Row 4]\nTaskID: TSK-104 | Title: Roll out RFID reader firmware v3.4 to Science Block | Owner: Unassigned | Status: In Progress | Deadline: 2026-11-22 | Notes: Needs incoming engineer assignment after Pooja Ravi departure.\n\n[Row 5]\nTaskID: TSK-105 | Title: Implement automated nightly backup verification script | Owner: Pooja Ravi | Status: In Progress | Deadline: (Missing) | Notes: Backup snapshot runs, restore verification check pending.\n\n[Row 6]\nTaskID: TSK-106 | Title: Build classroom occupancy heat-map API endpoint | Owner: Kavya Nair | Status: In Progress | Deadline: 2026-11-28 | Notes: Waiting on final sensor payload normalization.\n\n[Row 7]\nTaskID: TSK-107 | Title: Deploy 60 new UHF RFID hallway portals in Engineering Annex | Owner: Unassigned | Status: Blocked | Deadline: 2026-11-30 | Notes: Blocked awaiting customs clearance of vendor hardware batch.\n\n[Row 8]\nTaskID: TSK-108 | Title: Run full-scale load test for exam-week attendance surge | Owner: Monishwaran B | Status: Not Started | Deadline: 2026-12-04 | Notes: Depends on Campus SSO & API Gateway integration sign-off.",
+      "chunks": [
+        {
+          "location": "Row 1",
+          "text": "TaskID: TSK-101 | Title: Provision PostgreSQL 16 + TimescaleDB cluster | Owner: Pooja Ravi | Status: Completed | Deadline: 2026-10-10 | Notes: Primary and read-replica active in staging."
+        },
+        {
+          "location": "Row 2",
+          "text": "TaskID: TSK-102 | Title: Configure Kong Gateway rate-limiting rules | Owner: Pooja Ravi | Status: Completed | Deadline: 2026-10-18 | Notes: Verified 1,200 req/s burst ceiling."
+        },
+        {
+          "location": "Row 3",
+          "text": "TaskID: TSK-103 | Title: Campus SSO & API Gateway integration | Owner: Pooja Ravi | Status: Completed | Deadline: 2026-10-25 | Notes: Marked done by sprint script after OIDC plugin install."
+        },
+        {
+          "location": "Row 4",
+          "text": "TaskID: TSK-104 | Title: Roll out RFID reader firmware v3.4 to Science Block | Owner: Unassigned | Status: In Progress | Deadline: 2026-11-22 | Notes: Needs incoming engineer assignment after Pooja Ravi departure."
+        },
+        {
+          "location": "Row 5",
+          "text": "TaskID: TSK-105 | Title: Implement automated nightly backup verification script | Owner: Pooja Ravi | Status: In Progress | Deadline: (Missing) | Notes: Backup snapshot runs, restore verification check pending."
+        },
+        {
+          "location": "Row 6",
+          "text": "TaskID: TSK-106 | Title: Build classroom occupancy heat-map API endpoint | Owner: Kavya Nair | Status: In Progress | Deadline: 2026-11-28 | Notes: Waiting on final sensor payload normalization."
+        },
+        {
+          "location": "Row 7",
+          "text": "TaskID: TSK-107 | Title: Deploy 60 new UHF RFID hallway portals in Engineering Annex | Owner: Unassigned | Status: Blocked | Deadline: 2026-11-30 | Notes: Blocked awaiting customs clearance of vendor hardware batch."
+        },
+        {
+          "location": "Row 8",
+          "text": "TaskID: TSK-108 | Title: Run full-scale load test for exam-week attendance surge | Owner: Monishwaran B | Status: Not Started | Deadline: 2026-12-04 | Notes: Depends on Campus SSO & API Gateway integration sign-off."
+        }
+      ]
+    },
+    {
+      "id": "SRC-003",
+      "projectId": "proj-smart-campus",
+      "filename": "Weekly_Engineering_Sync_Oct28.txt",
+      "fileType": "txt",
+      "sizeBytes": 12640,
+      "uploadedByUserId": "usr-reviewer",
+      "uploadedByName": "Monishwaran B",
+      "uploadedAt": "2026-10-28T17:45:00Z",
+      "status": "Analyzed",
+      "rawText": "[Paragraph 1]\nWeekly Engineering Sync — October 28, 2026. Attendees: Sandhya S, Monishwaran B, Pooja Ravi, Kavya Nair, Arjun Mehta. Agenda: Pre-handover status audit and blocker escalation ahead of Pooja Ravi transition on November 30.\n\n[Paragraph 2]\nPooja Ravi reported that Campus SSO & API Gateway integration is still in progress awaiting university OAuth metadata endpoint from the Central IT Identity team. Although the Kong OIDC plugin was installed in Sprint 14, end-to-end token exchange against production IdP fails with invalid_issuer until Central IT publishes the /.well-known/openid-configuration endpoint.\n\n[Paragraph 3]\nBlocker BLK-01: Hardware shipment of 60 UHF RFID hallway portals is stalled at Chennai Port customs due to missing WPC wireless type-approval certificate from vendor EduSense Hardware Pvt Ltd. Expected delay is 14-18 days, blocking Engineering Annex installation.\n\n[Paragraph 4]\nDecision DEC-04: Freeze schema migrations on attendance_events table until after November 25 mid-semester audit. (Note: Meeting attendees agreed to the freeze verbally; no formal technical rationale was recorded in the minutes.)\n\n[Paragraph 5]\nOpen Questions raised during sync: Q1 — Who will assume on-call pager rotation for the MQTT ingestion cluster after Pooja Ravi transitions off on November 30? Q2 — Will Central IT provide a dedicated staging OIDC tenant or should we continue mocking claims locally?\n\n[Paragraph 6]\nBlocker BLK-02: Campus Internal PKI service account renewal requires Dean of Infrastructure sign-off ticket #INF-9921 before issuing the 420 device X.509 certificates.",
+      "chunks": [
+        {
+          "location": "Paragraph 1",
+          "text": "Weekly Engineering Sync — October 28, 2026. Attendees: Sandhya S, Monishwaran B, Pooja Ravi, Kavya Nair, Arjun Mehta. Agenda: Pre-handover status audit and blocker escalation ahead of Pooja Ravi transition on November 30."
+        },
+        {
+          "location": "Paragraph 2",
+          "text": "Pooja Ravi reported that Campus SSO & API Gateway integration is still in progress awaiting university OAuth metadata endpoint from the Central IT Identity team. Although the Kong OIDC plugin was installed in Sprint 14, end-to-end token exchange against production IdP fails with invalid_issuer until Central IT publishes the /.well-known/openid-configuration endpoint."
+        },
+        {
+          "location": "Paragraph 3",
+          "text": "Blocker BLK-01: Hardware shipment of 60 UHF RFID hallway portals is stalled at Chennai Port customs due to missing WPC wireless type-approval certificate from vendor EduSense Hardware Pvt Ltd. Expected delay is 14-18 days, blocking Engineering Annex installation."
+        },
+        {
+          "location": "Paragraph 4",
+          "text": "Decision DEC-04: Freeze schema migrations on attendance_events table until after November 25 mid-semester audit. (Note: Meeting attendees agreed to the freeze verbally; no formal technical rationale was recorded in the minutes.)"
+        },
+        {
+          "location": "Paragraph 5",
+          "text": "Open Questions raised during sync: Q1 — Who will assume on-call pager rotation for the MQTT ingestion cluster after Pooja Ravi transitions off on November 30? Q2 — Will Central IT provide a dedicated staging OIDC tenant or should we continue mocking claims locally?"
+        },
+        {
+          "location": "Paragraph 6",
+          "text": "Blocker BLK-02: Campus Internal PKI service account renewal requires Dean of Infrastructure sign-off ticket #INF-9921 before issuing the 420 device X.509 certificates."
+        }
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "projectId": "proj-smart-campus",
+      "filename": "Security_Compliance_Audit_Notes.docx",
+      "fileType": "docx",
+      "sizeBytes": 94310,
+      "uploadedByUserId": "usr-arjun",
+      "uploadedByName": "Arjun Mehta",
+      "uploadedAt": "2026-11-02T11:30:00Z",
+      "status": "Analyzed",
+      "rawText": "[Section 1]\nSecurity & Compliance Audit Notes — Prepared by Arjun Mehta (Information Security). Scope: Student RFID attendance PII handling, API gateway perimeter, and disaster recovery posture.\n\n[Section 2]\nRisk RSK-01 (High): Student RFID badge UIDs are currently logged alongside timestamp and room ID in unencrypted CSV exports during manual troubleshooting, creating student privacy and FERPA/DPDP exposure if exported files leave the bastion host.\n\n[Section 3]\nRisk RSK-02 (Critical): Single point of failure on campus-mqtt-01 broker node. No automated failover replica is provisioned; if the primary node restarts during 09:00 AM class check-in, up to 12,000 attendance punches could be dropped.\n\n[Section 4]\nPending Approval APP-01: Data Protection Officer (DPO) Meera Krishnan (dpo@campus.edu) sign-off on the 90-day raw telemetry retention policy is pending review since October 19, blocking production go-live of the analytics archive.\n\n[Section 5]\nRisk RSK-03 (Medium): Vendor EduSense firmware signing keys are stored only on Pooja Ravi engineering workstation HSM backup without dual-custody escrow. Key transfer to Incoming Member and Security Vault is mandatory prior to offboarding.",
+      "chunks": [
+        {
+          "location": "Section 1",
+          "text": "Security & Compliance Audit Notes — Prepared by Arjun Mehta (Information Security). Scope: Student RFID attendance PII handling, API gateway perimeter, and disaster recovery posture."
+        },
+        {
+          "location": "Section 2",
+          "text": "Risk RSK-01 (High): Student RFID badge UIDs are currently logged alongside timestamp and room ID in unencrypted CSV exports during manual troubleshooting, creating student privacy and FERPA/DPDP exposure if exported files leave the bastion host."
+        },
+        {
+          "location": "Section 3",
+          "text": "Risk RSK-02 (Critical): Single point of failure on campus-mqtt-01 broker node. No automated failover replica is provisioned; if the primary node restarts during 09:00 AM class check-in, up to 12,000 attendance punches could be dropped."
+        },
+        {
+          "location": "Section 4",
+          "text": "Pending Approval APP-01: Data Protection Officer (DPO) Meera Krishnan (dpo@campus.edu) sign-off on the 90-day raw telemetry retention policy is pending review since October 19, blocking production go-live of the analytics archive."
+        },
+        {
+          "location": "Section 5",
+          "text": "Risk RSK-03 (Medium): Vendor EduSense firmware signing keys are stored only on Pooja Ravi engineering workstation HSM backup without dual-custody escrow. Key transfer to Incoming Member and Security Vault is mandatory prior to offboarding."
+        }
+      ],
+      "restrictedToReviewers": false
+    },
+    {
+      "id": "SRC-005",
+      "projectId": "proj-smart-campus",
+      "filename": "Q3_Deployment_Readiness_Report.pdf",
+      "fileType": "pdf",
+      "sizeBytes": 315900,
+      "uploadedByUserId": "usr-departing",
+      "uploadedByName": "Pooja Ravi",
+      "uploadedAt": "2026-11-04T09:50:00Z",
+      "status": "Analyzed",
+      "rawText": "[Page 1]\nQ3 Deployment Readiness & Infrastructure Report (Revised November 4, 2026). Environment Summary: Production Kubernetes namespace scms-prod runs on 3 worker nodes (8 vCPU, 32 GB RAM each). Node bootstrap uses Helm chart v2.4.0 in repository git.campus.edu/aether/scms-infra.\n\n[Page 2]\nStaging IoT Cluster Observation: Staging IoT cluster currently accepts unauthenticated MQTT on port 1883 due to expired test certs that lapsed on October 12. Blocker BLK-03: Automated sensor integration tests in CI pipeline fail against TLS endpoints until test CA certificates are rotated.\n\n[Page 3]\nDeprecation & Open Items: Note from August Q3 Archive — Legacy cron attendance sync runs nightly on campus-vm-01 at 02:00 IST (Deprecated in October when TimescaleDB streaming went live; campus-vm-01 scheduled for decommission). Decision DEC-05: Enable read-only audit mirror in secondary campus datacenter to satisfy accreditation continuity requirements. Rationale: Dual-datacenter mirror guarantees zero data loss if main campus power substation undergoes weekend maintenance. Open Question Q3: Has Facilities approved the backup generator UPS upgrade for Block C network closet?",
+      "chunks": [
+        {
+          "location": "Page 1",
+          "text": "Q3 Deployment Readiness & Infrastructure Report (Revised November 4, 2026). Environment Summary: Production Kubernetes namespace scms-prod runs on 3 worker nodes (8 vCPU, 32 GB RAM each). Node bootstrap uses Helm chart v2.4.0 in repository git.campus.edu/aether/scms-infra."
+        },
+        {
+          "location": "Page 2",
+          "text": "Staging IoT Cluster Observation: Staging IoT cluster currently accepts unauthenticated MQTT on port 1883 due to expired test certs that lapsed on October 12. Blocker BLK-03: Automated sensor integration tests in CI pipeline fail against TLS endpoints until test CA certificates are rotated."
+        },
+        {
+          "location": "Page 3",
+          "text": "Deprecation & Open Items: Note from August Q3 Archive — Legacy cron attendance sync runs nightly on campus-vm-01 at 02:00 IST (Deprecated in October when TimescaleDB streaming went live; campus-vm-01 scheduled for decommission). Decision DEC-05: Enable read-only audit mirror in secondary campus datacenter to satisfy accreditation continuity requirements. Rationale: Dual-datacenter mirror guarantees zero data loss if main campus power substation undergoes weekend maintenance. Open Question Q3: Has Facilities approved the backup generator UPS upgrade for Block C network closet?"
+        }
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "projectId": "proj-sso-v1",
+      "filename": "Student_Portal_SSO_Runbook.pdf",
+      "fileType": "pdf",
+      "sizeBytes": 185200,
+      "uploadedByUserId": "usr-kavya",
+      "uploadedByName": "Kavya Nair",
+      "uploadedAt": "2026-10-16T10:00:00Z",
+      "status": "Analyzed",
+      "rawText": "[Page 1]\nStudent Portal SSO v1 Rollout — Final Handover Brief. All 18,400 student and faculty identities migrated from legacy SAML 2.0 IdP to OIDC v1.2 with zero downtime during October 14 maintenance window.\n\n[Page 2]\nOperational Runbook: Token signing keys rotate automatically every 90 days via Cert-Manager job oidc-jwks-rotator in namespace identity-prod. On-call alerts route to #identity-ops-alerts.",
+      "chunks": [
+        {
+          "location": "Page 1",
+          "text": "Student Portal SSO v1 Rollout — Final Handover Brief. All 18,400 student and faculty identities migrated from legacy SAML 2.0 IdP to OIDC v1.2 with zero downtime during October 14 maintenance window."
+        },
+        {
+          "location": "Page 2",
+          "text": "Operational Runbook: Token signing keys rotate automatically every 90 days via Cert-Manager job oidc-jwks-rotator in namespace identity-prod. On-call alerts route to #identity-ops-alerts."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-001",
+      "projectId": "proj-smart-campus",
+      "text": "Adopt PostgreSQL 16 with TimescaleDB as the unified telemetry and relational store instead of separate MongoDB and MySQL clusters.",
+      "category": "Decision",
+      "sourceId": "SRC-001",
+      "sourceFilename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "sourceLocation": "Page 1",
+      "evidenceSnippet": "Decision DEC-01: Adopt PostgreSQL 16 with TimescaleDB extension as the unified telemetry and relational store instead of maintaining separate MongoDB and MySQL clusters.",
+      "confidence": 0.97,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "verifiedBy": "Monishwaran B",
+      "verifiedAt": "2026-11-06T09:20:00Z",
+      "relatedClaimIds": [
+        "CLM-002",
+        "CLM-006"
+      ]
+    },
+    {
+      "id": "CLM-002",
+      "projectId": "proj-smart-campus",
+      "text": "Rationale for PostgreSQL + TimescaleDB: eliminates cross-database sync lag during peak RFID bursts and lowers DevOps maintenance overhead.",
+      "category": "Rationale",
+      "sourceId": "SRC-001",
+      "sourceFilename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "sourceLocation": "Page 1",
+      "evidenceSnippet": "Rationale: Consolidating onto PostgreSQL eliminates cross-database sync lag during peak class-change RFID bursts and reduces operational maintenance overhead for the two-person DevOps team.",
+      "confidence": 0.95,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-001"
+      ]
+    },
+    {
+      "id": "CLM-003",
+      "projectId": "proj-smart-campus",
+      "text": "Migrate classroom occupancy sensors from HTTP polling to EMQX MQTT broker over TLS port 8883 with mutual client certificates.",
+      "category": "Decision",
+      "sourceId": "SRC-001",
+      "sourceFilename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "sourceLocation": "Page 2",
+      "evidenceSnippet": "Production MQTT broker runs on TLS port 8883 with mutual client certificates issued by the Campus Internal PKI.",
+      "confidence": 0.91,
+      "verificationStatus": "CONFLICT",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-014",
+        "CLM-009"
+      ]
+    },
+    {
+      "id": "CLM-004",
+      "projectId": "proj-smart-campus",
+      "text": "Replace custom JWT session issuer with University Central OIDC Federation via Kong API Gateway to enforce MFA and instant graduation revocation.",
+      "category": "Decision",
+      "sourceId": "SRC-001",
+      "sourceFilename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "sourceLocation": "Page 3",
+      "evidenceSnippet": "Decision DEC-03: Replace custom JWT session issuer with University Central OIDC Federation via Kong API Gateway. Rationale: Central OIDC federation enforces university-wide MFA and instant student graduation revocation without duplicating credential tables.",
+      "confidence": 0.96,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-007",
+        "CLM-008"
+      ]
+    },
+    {
+      "id": "CLM-005",
+      "projectId": "proj-smart-campus",
+      "text": "Freeze schema migrations on attendance_events table until after November 25 mid-semester audit (no documented technical rationale).",
+      "category": "Decision",
+      "sourceId": "SRC-003",
+      "sourceFilename": "Weekly_Engineering_Sync_Oct28.txt",
+      "sourceLocation": "Paragraph 4",
+      "evidenceSnippet": "Decision DEC-04: Freeze schema migrations on attendance_events table until after November 25 mid-semester audit. (Note: Meeting attendees agreed to the freeze verbally; no formal technical rationale was recorded in the minutes.)",
+      "confidence": 0.86,
+      "verificationStatus": "NEEDS_REVIEW",
+      "isStale": false,
+      "owner": "Monishwaran B",
+      "dueDate": "2026-11-25",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-019",
+      "projectId": "proj-smart-campus",
+      "text": "Enable read-only audit mirror in secondary campus datacenter to guarantee zero data loss during weekend substation maintenance.",
+      "category": "Decision",
+      "sourceId": "SRC-005",
+      "sourceFilename": "Q3_Deployment_Readiness_Report.pdf",
+      "sourceLocation": "Page 3",
+      "evidenceSnippet": "Decision DEC-05: Enable read-only audit mirror in secondary campus datacenter to satisfy accreditation continuity requirements. Rationale: Dual-datacenter mirror guarantees zero data loss if main campus power substation undergoes weekend maintenance.",
+      "confidence": 0.93,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Sandhya S",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-006",
+      "projectId": "proj-smart-campus",
+      "text": "Provision PostgreSQL 16 + TimescaleDB primary and read-replica cluster in staging.",
+      "category": "Task",
+      "sourceId": "SRC-002",
+      "sourceFilename": "Sprint_14_Task_Export.csv",
+      "sourceLocation": "Row 1",
+      "evidenceSnippet": "TaskID: TSK-101 | Title: Provision PostgreSQL 16 + TimescaleDB cluster | Owner: Pooja Ravi | Status: Completed | Deadline: 2026-10-10",
+      "confidence": 0.98,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": "2026-10-10",
+      "taskStatus": "Completed",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-001"
+      ]
+    },
+    {
+      "id": "CLM-007",
+      "projectId": "proj-smart-campus",
+      "text": "Campus SSO & API Gateway integration marked Completed in Sprint 14 export.",
+      "category": "Task",
+      "sourceId": "SRC-002",
+      "sourceFilename": "Sprint_14_Task_Export.csv",
+      "sourceLocation": "Row 3",
+      "evidenceSnippet": "TaskID: TSK-103 | Title: Campus SSO & API Gateway integration | Owner: Pooja Ravi | Status: Completed | Deadline: 2026-10-25 | Notes: Marked done by sprint script after OIDC plugin install.",
+      "confidence": 0.89,
+      "verificationStatus": "CONFLICT",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": "2026-10-25",
+      "taskStatus": "Completed",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-008",
+        "CLM-004"
+      ]
+    },
+    {
+      "id": "CLM-008",
+      "projectId": "proj-smart-campus",
+      "text": "Campus SSO & API Gateway integration is still in progress awaiting university OAuth metadata endpoint from Central IT.",
+      "category": "Task",
+      "sourceId": "SRC-003",
+      "sourceFilename": "Weekly_Engineering_Sync_Oct28.txt",
+      "sourceLocation": "Paragraph 2",
+      "evidenceSnippet": "Pooja Ravi reported that Campus SSO & API Gateway integration is still in progress awaiting university OAuth metadata endpoint from the Central IT Identity team.",
+      "confidence": 0.94,
+      "verificationStatus": "CONFLICT",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": "2026-11-20",
+      "taskStatus": "In Progress",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-007",
+        "CLM-004"
+      ]
+    },
+    {
+      "id": "CLM-020",
+      "projectId": "proj-smart-campus",
+      "text": "Configure Kong Gateway rate-limiting rules verified at 1,200 req/s burst ceiling.",
+      "category": "Task",
+      "sourceId": "SRC-002",
+      "sourceFilename": "Sprint_14_Task_Export.csv",
+      "sourceLocation": "Row 2",
+      "evidenceSnippet": "TaskID: TSK-102 | Title: Configure Kong Gateway rate-limiting rules | Owner: Pooja Ravi | Status: Completed | Deadline: 2026-10-18 | Notes: Verified 1,200 req/s burst ceiling.",
+      "confidence": 0.96,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": "2026-10-18",
+      "taskStatus": "Completed",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-021",
+      "projectId": "proj-smart-campus",
+      "text": "Roll out RFID reader firmware v3.4 to Science Block (currently unassigned after Pooja Ravi departure).",
+      "category": "Task",
+      "sourceId": "SRC-002",
+      "sourceFilename": "Sprint_14_Task_Export.csv",
+      "sourceLocation": "Row 4",
+      "evidenceSnippet": "TaskID: TSK-104 | Title: Roll out RFID reader firmware v3.4 to Science Block | Owner: Unassigned | Status: In Progress | Deadline: 2026-11-22",
+      "confidence": 0.94,
+      "verificationStatus": "NEEDS_REVIEW",
+      "isStale": false,
+      "owner": null,
+      "dueDate": "2026-11-22",
+      "taskStatus": "In Progress",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-009"
+      ]
+    },
+    {
+      "id": "CLM-022",
+      "projectId": "proj-smart-campus",
+      "text": "Implement automated nightly backup verification script (missing due date).",
+      "category": "Task",
+      "sourceId": "SRC-002",
+      "sourceFilename": "Sprint_14_Task_Export.csv",
+      "sourceLocation": "Row 5",
+      "evidenceSnippet": "TaskID: TSK-105 | Title: Implement automated nightly backup verification script | Owner: Pooja Ravi | Status: In Progress | Deadline: (Missing)",
+      "confidence": 0.92,
+      "verificationStatus": "NEEDS_REVIEW",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": null,
+      "taskStatus": "In Progress",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-023",
+      "projectId": "proj-smart-campus",
+      "text": "Build classroom occupancy heat-map API endpoint awaiting sensor payload normalization.",
+      "category": "Task",
+      "sourceId": "SRC-002",
+      "sourceFilename": "Sprint_14_Task_Export.csv",
+      "sourceLocation": "Row 6",
+      "evidenceSnippet": "TaskID: TSK-106 | Title: Build classroom occupancy heat-map API endpoint | Owner: Kavya Nair | Status: In Progress | Deadline: 2026-11-28",
+      "confidence": 0.95,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Kavya Nair",
+      "dueDate": "2026-11-28",
+      "taskStatus": "In Progress",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-024",
+      "projectId": "proj-smart-campus",
+      "text": "Deploy 60 new UHF RFID hallway portals in Engineering Annex (unassigned & blocked by customs clearance).",
+      "category": "Task",
+      "sourceId": "SRC-002",
+      "sourceFilename": "Sprint_14_Task_Export.csv",
+      "sourceLocation": "Row 7",
+      "evidenceSnippet": "TaskID: TSK-107 | Title: Deploy 60 new UHF RFID hallway portals in Engineering Annex | Owner: Unassigned | Status: Blocked | Deadline: 2026-11-30",
+      "confidence": 0.95,
+      "verificationStatus": "NEEDS_REVIEW",
+      "isStale": false,
+      "owner": null,
+      "dueDate": "2026-11-30",
+      "taskStatus": "Blocked",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-010"
+      ]
+    },
+    {
+      "id": "CLM-025",
+      "projectId": "proj-smart-campus",
+      "text": "Run full-scale load test for exam-week attendance surge (depends on SSO & API Gateway sign-off).",
+      "category": "Task",
+      "sourceId": "SRC-002",
+      "sourceFilename": "Sprint_14_Task_Export.csv",
+      "sourceLocation": "Row 8",
+      "evidenceSnippet": "TaskID: TSK-108 | Title: Run full-scale load test for exam-week attendance surge | Owner: Monishwaran B | Status: Not Started | Deadline: 2026-12-04",
+      "confidence": 0.93,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Monishwaran B",
+      "dueDate": "2026-12-04",
+      "taskStatus": "Not Started",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-007",
+        "CLM-008"
+      ]
+    },
+    {
+      "id": "CLM-009",
+      "projectId": "proj-smart-campus",
+      "text": "Firmware v3.4 OTA rollout depends on Campus Internal PKI issuing 420 device X.509 certificates.",
+      "category": "Dependency",
+      "sourceId": "SRC-001",
+      "sourceFilename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "sourceLocation": "Page 2",
+      "evidenceSnippet": "Dependency DEP-01: Firmware v3.4 OTA rollout depends on Campus Internal PKI issuing 420 device X.509 certificates before block deployment.",
+      "confidence": 0.94,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": "2026-11-22",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-021",
+        "CLM-011"
+      ]
+    },
+    {
+      "id": "CLM-026",
+      "projectId": "proj-smart-campus",
+      "text": "Real-time occupancy WebSocket alerts depend on Redis 7.2 Pub/Sub cluster pinned in ap-south-1 availability zone A.",
+      "category": "Dependency",
+      "sourceId": "SRC-001",
+      "sourceFilename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "sourceLocation": "Page 4",
+      "evidenceSnippet": "Dependency DEP-02: Real-time occupancy dashboard WebSocket alerts depend on Redis 7.2 Pub/Sub cluster remaining pinned in ap-south-1 availability zone A.",
+      "confidence": 0.92,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Kavya Nair",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-027",
+      "projectId": "proj-smart-campus",
+      "text": "Production analytics archive rollout is blocked pending Data Protection Officer (DPO) sign-off on 90-day retention policy.",
+      "category": "Pending Approval",
+      "sourceId": "SRC-004",
+      "sourceFilename": "Security_Compliance_Audit_Notes.docx",
+      "sourceLocation": "Section 4",
+      "evidenceSnippet": "Pending Approval APP-01: Data Protection Officer (DPO) Meera Krishnan (dpo@campus.edu) sign-off on the 90-day raw telemetry retention policy is pending review since October 19, blocking production go-live of the analytics archive.",
+      "confidence": 0.95,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Arjun Mehta",
+      "dueDate": "2026-11-18",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-028",
+      "projectId": "proj-smart-campus",
+      "text": "IoT gateways require VLAN 42 firewall whitelisting managed by NOC Lead Dr. Ramesh Iyer.",
+      "category": "Dependency",
+      "sourceId": "SRC-001",
+      "sourceFilename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "sourceLocation": "Page 4",
+      "evidenceSnippet": "Important Contact: University Network Operations Center (NOC) Lead Dr. Ramesh Iyer (noc-lead@campus.edu, ext. 4410) manages VLAN 42 firewall whitelisting for IoT gateways.",
+      "confidence": 0.91,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Dr. Ramesh Iyer",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-010",
+      "projectId": "proj-smart-campus",
+      "text": "60 UHF RFID hallway portals stalled at Chennai Port customs due to missing WPC wireless type-approval certificate (14-18 day delay).",
+      "category": "Blocker",
+      "sourceId": "SRC-003",
+      "sourceFilename": "Weekly_Engineering_Sync_Oct28.txt",
+      "sourceLocation": "Paragraph 3",
+      "evidenceSnippet": "Blocker BLK-01: Hardware shipment of 60 UHF RFID hallway portals is stalled at Chennai Port customs due to missing WPC wireless type-approval certificate from vendor EduSense Hardware Pvt Ltd. Expected delay is 14-18 days, blocking Engineering Annex installation.",
+      "confidence": 0.96,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Sandhya S",
+      "dueDate": "2026-11-24",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-024"
+      ]
+    },
+    {
+      "id": "CLM-011",
+      "projectId": "proj-smart-campus",
+      "text": "Campus Internal PKI service account renewal requires Dean of Infrastructure sign-off ticket #INF-9921 before issuing device certs.",
+      "category": "Blocker",
+      "sourceId": "SRC-003",
+      "sourceFilename": "Weekly_Engineering_Sync_Oct28.txt",
+      "sourceLocation": "Paragraph 6",
+      "evidenceSnippet": "Blocker BLK-02: Campus Internal PKI service account renewal requires Dean of Infrastructure sign-off ticket #INF-9921 before issuing the 420 device X.509 certificates.",
+      "confidence": 0.95,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Monishwaran B",
+      "dueDate": "2026-11-19",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-009"
+      ]
+    },
+    {
+      "id": "CLM-012",
+      "projectId": "proj-smart-campus",
+      "text": "Automated sensor integration tests in CI fail against TLS endpoints until expired staging test CA certificates are rotated.",
+      "category": "Blocker",
+      "sourceId": "SRC-005",
+      "sourceFilename": "Q3_Deployment_Readiness_Report.pdf",
+      "sourceLocation": "Page 2",
+      "evidenceSnippet": "Blocker BLK-03: Automated sensor integration tests in CI pipeline fail against TLS endpoints until test CA certificates are rotated.",
+      "confidence": 0.93,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": "2026-11-16",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-014"
+      ]
+    },
+    {
+      "id": "CLM-013",
+      "projectId": "proj-smart-campus",
+      "text": "Student RFID badge UIDs are logged in unencrypted CSV exports during manual troubleshooting, creating privacy/DPDP exposure.",
+      "category": "Risk",
+      "sourceId": "SRC-004",
+      "sourceFilename": "Security_Compliance_Audit_Notes.docx",
+      "sourceLocation": "Section 2",
+      "evidenceSnippet": "Risk RSK-01 (High): Student RFID badge UIDs are currently logged alongside timestamp and room ID in unencrypted CSV exports during manual troubleshooting, creating student privacy and FERPA/DPDP exposure if exported files leave the bastion host.",
+      "confidence": 0.95,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Arjun Mehta",
+      "dueDate": "2026-11-25",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-029",
+      "projectId": "proj-smart-campus",
+      "text": "Single point of failure on campus-mqtt-01 broker node could drop up to 12,000 attendance punches during peak 09:00 AM check-in.",
+      "category": "Risk",
+      "sourceId": "SRC-004",
+      "sourceFilename": "Security_Compliance_Audit_Notes.docx",
+      "sourceLocation": "Section 3",
+      "evidenceSnippet": "Risk RSK-02 (Critical): Single point of failure on campus-mqtt-01 broker node. No automated failover replica is provisioned; if the primary node restarts during 09:00 AM class check-in, up to 12,000 attendance punches could be dropped.",
+      "confidence": 0.97,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Pooja G",
+      "dueDate": "2026-12-01",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-030",
+      "projectId": "proj-smart-campus",
+      "text": "Vendor EduSense firmware signing keys are stored only on Pooja Ravi workstation HSM backup without dual-custody escrow.",
+      "category": "Risk",
+      "sourceId": "SRC-004",
+      "sourceFilename": "Security_Compliance_Audit_Notes.docx",
+      "sourceLocation": "Section 5",
+      "evidenceSnippet": "Risk RSK-03 (Medium): Vendor EduSense firmware signing keys are stored only on Pooja Ravi engineering workstation HSM backup without dual-custody escrow. Key transfer to Incoming Member and Security Vault is mandatory prior to offboarding.",
+      "confidence": 0.94,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": "2026-11-29",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-014",
+      "projectId": "proj-smart-campus",
+      "text": "Staging IoT cluster currently accepts unauthenticated MQTT on port 1883 due to expired test certificates.",
+      "category": "Technical",
+      "sourceId": "SRC-005",
+      "sourceFilename": "Q3_Deployment_Readiness_Report.pdf",
+      "sourceLocation": "Page 2",
+      "evidenceSnippet": "Staging IoT cluster currently accepts unauthenticated MQTT on port 1883 due to expired test certs that lapsed on October 12.",
+      "confidence": 0.93,
+      "verificationStatus": "CONFLICT",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "relatedClaimIds": [
+        "CLM-003",
+        "CLM-012"
+      ]
+    },
+    {
+      "id": "CLM-015",
+      "projectId": "proj-smart-campus",
+      "text": "Staging API gateway lives at https://gw-staging.smartcampus.edu with DB secrets in Vault kv/smartcampus/staging; prod uses Helm v2.4.0.",
+      "category": "Technical",
+      "sourceId": "SRC-001",
+      "sourceFilename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "sourceLocation": "Page 3",
+      "evidenceSnippet": "Technical Setup: Staging API gateway is deployed at https://gw-staging.smartcampus.edu with PostgreSQL connection string stored in Vault path kv/smartcampus/staging.",
+      "confidence": 0.95,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Pooja Ravi",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-031",
+      "projectId": "proj-smart-campus",
+      "text": "Open Question: Who will assume on-call pager rotation for MQTT ingestion cluster after Pooja Ravi leaves on November 30?",
+      "category": "Open Question",
+      "sourceId": "SRC-003",
+      "sourceFilename": "Weekly_Engineering_Sync_Oct28.txt",
+      "sourceLocation": "Paragraph 5",
+      "evidenceSnippet": "Q1 — Who will assume on-call pager rotation for the MQTT ingestion cluster after Pooja Ravi transitions off on November 30?",
+      "confidence": 0.91,
+      "verificationStatus": "NEEDS_REVIEW",
+      "isStale": false,
+      "owner": "Sandhya S",
+      "dueDate": "2026-11-25",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-032",
+      "projectId": "proj-smart-campus",
+      "text": "Open Question: Will Central IT provide a dedicated staging OIDC tenant or should engineering continue mocking claims locally?",
+      "category": "Open Question",
+      "sourceId": "SRC-003",
+      "sourceFilename": "Weekly_Engineering_Sync_Oct28.txt",
+      "sourceLocation": "Paragraph 5",
+      "evidenceSnippet": "Q2 — Will Central IT provide a dedicated staging OIDC tenant or should we continue mocking claims locally?",
+      "confidence": 0.9,
+      "verificationStatus": "NEEDS_REVIEW",
+      "isStale": false,
+      "owner": "Monishwaran B",
+      "dueDate": "2026-11-20",
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-033",
+      "projectId": "proj-smart-campus",
+      "text": "Open Question: Has Facilities approved the backup generator UPS upgrade for Block C network closet?",
+      "category": "Open Question",
+      "sourceId": "SRC-005",
+      "sourceFilename": "Q3_Deployment_Readiness_Report.pdf",
+      "sourceLocation": "Page 3",
+      "evidenceSnippet": "Open Question Q3: Has Facilities approved the backup generator UPS upgrade for Block C network closet?",
+      "confidence": 0.89,
+      "verificationStatus": "NEEDS_REVIEW",
+      "isStale": false,
+      "owner": null,
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-034",
+      "projectId": "proj-smart-campus",
+      "text": "Key Contacts: NOC Lead Dr. Ramesh Iyer (noc-lead@campus.edu, ext. 4410) and DPO Meera Krishnan (dpo@campus.edu).",
+      "category": "Contact",
+      "sourceId": "SRC-001",
+      "sourceFilename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "sourceLocation": "Page 4",
+      "evidenceSnippet": "University Network Operations Center (NOC) Lead Dr. Ramesh Iyer (noc-lead@campus.edu, ext. 4410) manages VLAN 42 firewall whitelisting for IoT gateways.",
+      "confidence": 0.96,
+      "verificationStatus": "SUPPORTED",
+      "isStale": false,
+      "owner": "Dr. Ramesh Iyer",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback"
+    },
+    {
+      "id": "CLM-016",
+      "projectId": "proj-smart-campus",
+      "text": "Mobile student attendance app already passed external WCAG 2.1 AA accessibility certification.",
+      "category": "Technical",
+      "sourceId": null,
+      "sourceFilename": null,
+      "sourceLocation": null,
+      "evidenceSnippet": null,
+      "confidence": 0.42,
+      "verificationStatus": "NO_EVIDENCE",
+      "isStale": false,
+      "owner": "Kavya Nair",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "reviewerNote": "No uploaded document substantiates WCAG 2.1 AA audit completion."
+    },
+    {
+      "id": "CLM-017",
+      "projectId": "proj-smart-campus",
+      "text": "University Finance Committee approved $45,000 supplementary IoT sensor expansion budget for Q1 2027.",
+      "category": "Pending Approval",
+      "sourceId": null,
+      "sourceFilename": null,
+      "sourceLocation": null,
+      "evidenceSnippet": null,
+      "confidence": 0.38,
+      "verificationStatus": "NO_EVIDENCE",
+      "isStale": false,
+      "owner": null,
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "reviewerNote": "Unverified verbal assumption; upload Finance Committee minutes or mark rejected."
+    },
+    {
+      "id": "CLM-018",
+      "projectId": "proj-smart-campus",
+      "text": "Legacy cron attendance sync runs nightly on campus-vm-01 at 02:00 IST (superseded by TimescaleDB streaming).",
+      "category": "Technical",
+      "sourceId": "SRC-005",
+      "sourceFilename": "Q3_Deployment_Readiness_Report.pdf",
+      "sourceLocation": "Page 3",
+      "evidenceSnippet": "Note from August Q3 Archive — Legacy cron attendance sync runs nightly on campus-vm-01 at 02:00 IST (Deprecated in October when TimescaleDB streaming went live; campus-vm-01 scheduled for decommission).",
+      "confidence": 0.88,
+      "verificationStatus": "SUPPORTED",
+      "isStale": true,
+      "owner": "Pooja Ravi",
+      "dueDate": null,
+      "extractedAt": "2026-11-05T10:00:00Z",
+      "extractionMode": "deterministic_fallback",
+      "reviewerNote": "Marked STALE: legacy VM scheduled for decommission after October streaming cutover."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "CONF-001",
+      "projectId": "proj-smart-campus",
+      "title": "Conflicting Completion Status: Campus SSO & API Gateway Integration",
+      "description": "Sprint 14 task export marks Campus SSO & API Gateway integration as Completed, whereas the October 28 engineering sync notes confirm it is still In Progress awaiting the university OAuth metadata endpoint.",
+      "severity": "Critical",
+      "claimAId": "CLM-007",
+      "statementA": "Campus SSO & API Gateway integration is marked Completed (Deadline: 2026-10-25).",
+      "sourceAId": "SRC-002",
+      "sourceAFilename": "Sprint_14_Task_Export.csv",
+      "sourceALocation": "Row 3",
+      "claimBId": "CLM-008",
+      "statementB": "Campus SSO & API Gateway integration is still in progress awaiting university OAuth metadata endpoint from Central IT.",
+      "sourceBId": "SRC-003",
+      "sourceBFilename": "Weekly_Engineering_Sync_Oct28.txt",
+      "sourceBLocation": "Paragraph 2",
+      "status": "OPEN"
+    },
+    {
+      "id": "CONF-002",
+      "projectId": "proj-smart-campus",
+      "title": "Conflicting MQTT Security Posture: TLS 8883 vs Unauthenticated Port 1883",
+      "description": "Architecture Spec v2.1 specifies MQTT broker runs over TLS port 8883 with mutual client certificates, while the Q3 Deployment Readiness Report reveals the staging IoT cluster accepts unauthenticated MQTT on port 1883 due to expired certs.",
+      "severity": "High",
+      "claimAId": "CLM-003",
+      "statementA": "Production MQTT broker runs on TLS port 8883 with mutual client certificates issued by Campus Internal PKI.",
+      "sourceAId": "SRC-001",
+      "sourceAFilename": "Smart_Campus_Architecture_Spec_v2.pdf",
+      "sourceALocation": "Page 2",
+      "claimBId": "CLM-014",
+      "statementB": "Staging IoT cluster currently accepts unauthenticated MQTT on port 1883 due to expired test certs that lapsed on October 12.",
+      "sourceBId": "SRC-005",
+      "sourceBFilename": "Q3_Deployment_Readiness_Report.pdf",
+      "sourceBLocation": "Page 2",
+      "status": "OPEN"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "GAP-001",
+      "projectId": "proj-smart-campus",
+      "type": "CONFLICT",
+      "severity": "Critical",
+      "title": "Conflicting Completion Status: Campus SSO & API Gateway Integration",
+      "description": "Sprint 14 task export marks Campus SSO & API Gateway integration as Completed, whereas the October 28 engineering sync notes confirm it is still In Progress awaiting the university OAuth metadata endpoint.",
+      "conflictId": "CONF-001",
+      "sourceRef": "SRC-002 Row 3 vs SRC-003 Paragraph 2",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-002",
+      "projectId": "proj-smart-campus",
+      "type": "CONFLICT",
+      "severity": "High",
+      "title": "Conflicting MQTT Security Posture: TLS 8883 vs Unauthenticated Port 1883",
+      "description": "Architecture Spec v2.1 specifies MQTT broker runs over TLS port 8883 with mutual client certificates, while the Q3 Deployment Readiness Report reveals the staging IoT cluster accepts unauthenticated MQTT on port 1883 due to expired certs.",
+      "conflictId": "CONF-002",
+      "sourceRef": "SRC-001 Page 2 vs SRC-005 Page 2",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-003",
+      "projectId": "proj-smart-campus",
+      "type": "DECISION_NO_RATIONALE",
+      "severity": "Medium",
+      "title": "Decision Without Rationale: Freeze schema migrations on attendance_events table until after November",
+      "description": "Decision was recorded without documented technical or business justification.",
+      "claimId": "CLM-005",
+      "sourceRef": "SRC-003 Paragraph 4",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-004",
+      "projectId": "proj-smart-campus",
+      "type": "MISSING_OWNER",
+      "severity": "High",
+      "title": "Unassigned Task: Roll out RFID reader firmware v3.4 to Science Block (currently unassigne",
+      "description": "Task has no assigned transition owner.",
+      "claimId": "CLM-021",
+      "sourceRef": "SRC-002 Row 4",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-005",
+      "projectId": "proj-smart-campus",
+      "type": "MISSING_DEADLINE",
+      "severity": "Medium",
+      "title": "Missing Deadline: Implement automated nightly backup verification script (missing due date",
+      "description": "Active or pending task lacks a target completion date.",
+      "claimId": "CLM-022",
+      "sourceRef": "SRC-002 Row 5",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-006",
+      "projectId": "proj-smart-campus",
+      "type": "MISSING_OWNER",
+      "severity": "High",
+      "title": "Unassigned Task: Deploy 60 new UHF RFID hallway portals in Engineering Annex (unassigned ",
+      "description": "Task has no assigned transition owner.",
+      "claimId": "CLM-024",
+      "sourceRef": "SRC-002 Row 7",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-007",
+      "projectId": "proj-smart-campus",
+      "type": "UNRESOLVED_BLOCKER",
+      "severity": "Critical",
+      "title": "Unresolved Blocker: 60 UHF RFID hallway portals stalled at Chennai Port customs due to missi",
+      "description": "Blocker BLK-01: Hardware shipment of 60 UHF RFID hallway portals is stalled at Chennai Port customs due to missing WPC wireless type-approval certificate from vendor EduSense Hardware Pvt Ltd. Expected delay is 14-18 days, blocking Engineering Annex installation.",
+      "claimId": "CLM-010",
+      "sourceRef": "SRC-003 Paragraph 3",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-008",
+      "projectId": "proj-smart-campus",
+      "type": "UNRESOLVED_BLOCKER",
+      "severity": "Critical",
+      "title": "Unresolved Blocker: Campus Internal PKI service account renewal requires Dean of Infrastruct",
+      "description": "Blocker BLK-02: Campus Internal PKI service account renewal requires Dean of Infrastructure sign-off ticket #INF-9921 before issuing the 420 device X.509 certificates.",
+      "claimId": "CLM-011",
+      "sourceRef": "SRC-003 Paragraph 6",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-009",
+      "projectId": "proj-smart-campus",
+      "type": "UNRESOLVED_BLOCKER",
+      "severity": "Critical",
+      "title": "Unresolved Blocker: Automated sensor integration tests in CI fail against TLS endpoints unti",
+      "description": "Blocker BLK-03: Automated sensor integration tests in CI pipeline fail against TLS endpoints until test CA certificates are rotated.",
+      "claimId": "CLM-012",
+      "sourceRef": "SRC-005 Page 2",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-010",
+      "projectId": "proj-smart-campus",
+      "type": "UNSUPPORTED_CLAIM",
+      "severity": "High",
+      "title": "Unsupported Claim: Mobile student attendance app already passed external WCAG 2.1 AA access",
+      "description": "No uploaded document substantiates WCAG 2.1 AA audit completion.",
+      "claimId": "CLM-016",
+      "sourceRef": "No Source Document",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-011",
+      "projectId": "proj-smart-campus",
+      "type": "UNSUPPORTED_CLAIM",
+      "severity": "High",
+      "title": "Unsupported Claim: University Finance Committee approved $45,000 supplementary IoT sensor e",
+      "description": "Unverified verbal assumption; upload Finance Committee minutes or mark rejected.",
+      "claimId": "CLM-017",
+      "sourceRef": "No Source Document",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-012",
+      "projectId": "proj-smart-campus",
+      "type": "STALE_STATUS",
+      "severity": "Medium",
+      "title": "Stale Information: Legacy cron attendance sync runs nightly on campus-vm-01 at 02:00 IST (s",
+      "description": "Source statement references deprecated or superseded architecture.",
+      "claimId": "CLM-018",
+      "sourceRef": "SRC-005 Page 3",
+      "status": "OPEN"
+    }
+  ],
+  "handovers": [
+    {
+      "id": "HND-001",
+      "projectId": "proj-smart-campus",
+      "title": "Smart Campus Management System — Backend & IoT Lead Transition",
+      "version": 1,
+      "status": "DRAFT",
+      "departingMemberId": "usr-departing",
+      "departingMemberName": "Pooja Ravi",
+      "incomingMemberId": "usr-incoming",
+      "incomingMemberName": "Pooja G",
+      "incomingRole": "Incoming Platform Owner",
+      "includedSourceIds": [
+        "SRC-001",
+        "SRC-002",
+        "SRC-003",
+        "SRC-004",
+        "SRC-005"
+      ],
+      "scope": "Full Backend, IoT Ingestion, Security Posture, and Operational Ownership Transition",
+      "generatedMode": "deterministic_fallback",
+      "createdBy": "Pooja Ravi",
+      "createdAt": "2026-11-10T11:20:00Z",
+      "updatedAt": "2026-11-12T15:30:00Z",
+      "sections": [
+        {
+          "key": "executive_summary",
+          "number": 1,
+          "title": "Executive Summary",
+          "content": "The Smart Campus Management System is currently In Progress toward its December 20, 2026 milestone. Core database (PostgreSQL 16 + TimescaleDB) and Kong Gateway rate-limiting layers are operational in staging. However, two critical discrepancies require reviewer sign-off before production cutover: (1) Campus SSO OIDC integration is flagged Completed in Sprint 14 CSV yet reported In Progress in Oct 28 engineering minutes awaiting Central IT metadata, and (2) Staging MQTT operates unauthenticated on port 1883 due to expired certs while production requires mTLS on port 8883.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-001",
+              "label": "SRC-001 · Page 1",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-007",
+              "label": "SRC-002 · Row 3 (Conflict)",
+              "verificationStatus": "CONFLICT",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-008",
+              "label": "SRC-003 · Paragraph 2 (Conflict)",
+              "verificationStatus": "CONFLICT",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": true
+        },
+        {
+          "key": "project_background",
+          "number": 2,
+          "title": "Project Background",
+          "content": "Initiated on June 15, 2026 under Program Lead Sandhya S, this initiative unifies classroom IoT occupancy sensing, RFID student attendance, OIDC identity federation, and campus energy telemetry across 14 academic blocks. Pooja Ravi served as Lead Backend & IoT Engineer through November 30 and is transitioning infrastructure, PKI certificate workflows, and HSM firmware escrow to Pooja G.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-001",
+              "label": "SRC-001 · Page 1",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": false
+        },
+        {
+          "key": "current_status",
+          "number": 3,
+          "title": "Current Project Status",
+          "content": "Overall status is IN PROGRESS with active blockers in hardware customs clearance and PKI certificate renewal. Staging runs on gw-staging.smartcampus.edu with PostgreSQL 16 + TimescaleDB active. Note: Legacy campus-vm-01 cron sync mentioned in Q3 archives is deprecated (STALE). [Unverified] Mobile WCAG 2.1 AA audit status and $45,000 sensor budget claims lack supporting documents.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-015",
+              "label": "SRC-001 · Page 3",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-018",
+              "label": "SRC-005 · Page 3 (Stale)",
+              "verificationStatus": "SUPPORTED",
+              "isStale": true
+            },
+            {
+              "claimId": "CLM-016",
+              "label": "No Source (Unverified)",
+              "verificationStatus": "NO_EVIDENCE",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": true
+        },
+        {
+          "key": "completed_activities",
+          "number": 4,
+          "title": "Completed Activities",
+          "content": "• Provisioned PostgreSQL 16 + TimescaleDB primary and read-replica cluster in staging (TSK-101, completed 2026-10-10).\n• Configured Kong API Gateway rate-limiting rules verified at 1,200 req/s burst ceiling (TSK-102, completed 2026-10-18).\n• Deployed Helm chart v2.4.0 across 3-node scms-prod Kubernetes cluster.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-006",
+              "label": "SRC-002 · Row 1",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-020",
+              "label": "SRC-002 · Row 2",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": false
+        },
+        {
+          "key": "pending_tasks",
+          "number": 5,
+          "title": "Pending Tasks",
+          "content": "• [CONFLICT] Finalize Campus SSO & API Gateway OIDC integration once Central IT publishes /.well-known/openid-configuration (TSK-103).\n• [UNASSIGNED] Roll out RFID reader firmware v3.4 to Science Block by 2026-11-22 (TSK-104).\n• [MISSING DEADLINE] Complete automated nightly database restore verification script (TSK-105).\n• Build classroom occupancy heat-map API endpoint — Owner: Kavya Nair, Due: 2026-11-28 (TSK-106).\n• [UNASSIGNED / BLOCKED] Deploy 60 UHF RFID portals in Engineering Annex by 2026-11-30 (TSK-107).\n• Run exam-week attendance surge load test — Owner: Monishwaran B, Due: 2026-12-04 (TSK-108).",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-021",
+              "label": "SRC-002 · Row 4",
+              "verificationStatus": "NEEDS_REVIEW",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-022",
+              "label": "SRC-002 · Row 5",
+              "verificationStatus": "NEEDS_REVIEW",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-023",
+              "label": "SRC-002 · Row 6",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-025",
+              "label": "SRC-002 · Row 8",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": true
+        },
+        {
+          "key": "decisions_rationale",
+          "number": 6,
+          "title": "Important Decisions and Their Rationale",
+          "content": "1. DEC-01 (PostgreSQL 16 + TimescaleDB): Chosen over separate MongoDB/MySQL clusters to eliminate cross-DB sync lag and reduce DevOps toil.\n2. DEC-02 (EMQX MQTT over TLS 8883): Adopted with mutual client certs for classroom sensors (note staging conflict on port 1883).\n3. DEC-03 (University OIDC via Kong): Chosen over custom JWT to enforce campus MFA and instant graduation revocation.\n4. DEC-04 (attendance_events Schema Freeze until Nov 25): [Needs Review — verbal agreement without recorded technical rationale].\n5. DEC-05 (Secondary Datacenter Read-Only Mirror): Required for accreditation continuity during weekend power substation maintenance.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-001",
+              "label": "SRC-001 · Page 1",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-002",
+              "label": "SRC-001 · Page 1",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-004",
+              "label": "SRC-001 · Page 3",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-005",
+              "label": "SRC-003 · Paragraph 4",
+              "verificationStatus": "NEEDS_REVIEW",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": true
+        },
+        {
+          "key": "blockers",
+          "number": 7,
+          "title": "Outstanding Blockers",
+          "content": "• BLK-01 (Critical): 60 UHF RFID portals stalled at Chennai Port customs awaiting EduSense WPC wireless certificate (14-18 day delay).\n• BLK-02 (High): Campus Internal PKI service account renewal blocked on Dean of Infrastructure sign-off ticket #INF-9921.\n• BLK-03 (High): CI automated sensor integration tests fail until expired staging test CA certificates are rotated.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-010",
+              "label": "SRC-003 · Paragraph 3",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-011",
+              "label": "SRC-003 · Paragraph 6",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-012",
+              "label": "SRC-005 · Page 2",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": false
+        },
+        {
+          "key": "dependencies",
+          "number": 8,
+          "title": "Dependencies",
+          "content": "• DEP-01: Firmware v3.4 OTA rollout depends on Campus Internal PKI issuing 420 device X.509 certificates.\n• DEP-02: Real-time WebSocket occupancy alerts depend on Redis 7.2 Pub/Sub cluster pinned in ap-south-1 availability zone A.\n• APP-01: Analytics archive production go-live depends on DPO Meera Krishnan sign-off on 90-day retention policy.\n• Network Dependency: IoT gateway traffic requires VLAN 42 firewall whitelisting managed by NOC.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-009",
+              "label": "SRC-001 · Page 2",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-026",
+              "label": "SRC-001 · Page 4",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-027",
+              "label": "SRC-004 · Section 4",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": false
+        },
+        {
+          "key": "risks_mitigation",
+          "number": 9,
+          "title": "Risks and Mitigation",
+          "content": "• RSK-01 (High — PII/DPDP Exposure): Unencrypted CSV troubleshooting exports contain student RFID UIDs. Mitigation: Restrict exports to encrypted bastion sessions and purge scratch CSVs.\n• RSK-02 (Critical — Broker SPOF): campus-mqtt-01 lacks an automated failover replica, risking 12,000 dropped check-ins at 09:00 AM. Mitigation: Provision active-passive EMQX cluster before December launch.\n• RSK-03 (Medium — Key Custody): EduSense firmware signing keys reside only on Pooja Ravi HSM backup. Mitigation: Execute dual-custody transfer to Security Vault and Pooja G before Nov 29.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-013",
+              "label": "SRC-004 · Section 2",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-029",
+              "label": "SRC-004 · Section 3",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-030",
+              "label": "SRC-004 · Section 5",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": false
+        },
+        {
+          "key": "contacts",
+          "number": 10,
+          "title": "Important Contacts",
+          "content": "• University NOC Lead: Dr. Ramesh Iyer — noc-lead@campus.edu (ext. 4410) — VLAN 42 firewall whitelisting.\n• Data Protection Officer (DPO): Meera Krishnan — dpo@campus.edu — 90-day telemetry retention sign-off.\n• Internal Project Reviewers: Monishwaran B (Technical Reviewer) & Kavya Nair (Frontend/Mobile Lead).",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-034",
+              "label": "SRC-001 · Page 4",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-027",
+              "label": "SRC-004 · Section 4",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": false
+        },
+        {
+          "key": "technical_setup",
+          "number": 11,
+          "title": "Technical Setup Information",
+          "content": "• Staging Gateway URL: https://gw-staging.smartcampus.edu\n• Secrets Vault Path: kv/smartcampus/staging (PostgreSQL 16 + TimescaleDB credentials)\n• Production K8s Namespace: scms-prod (3 worker nodes, 8 vCPU / 32 GB RAM each)\n• Infrastructure Repo & Chart: git.campus.edu/aether/scms-infra (Helm chart v2.4.0)\n• Legacy Notice: campus-vm-01 cron script is deprecated and slated for decommission.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-015",
+              "label": "SRC-001 · Page 3",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-018",
+              "label": "SRC-005 · Page 3 (Stale)",
+              "verificationStatus": "SUPPORTED",
+              "isStale": true
+            }
+          ],
+          "hasUnverifiedDetails": false
+        },
+        {
+          "key": "unresolved_questions",
+          "number": 12,
+          "title": "Unresolved Questions",
+          "content": "1. Q1: Who assumes on-call pager rotation for the MQTT ingestion cluster after November 30?\n2. Q2: Will Central IT supply a dedicated staging OIDC tenant or continue local claim mocking?\n3. Q3: Has Facilities approved the Block C network closet backup generator UPS upgrade?",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-031",
+              "label": "SRC-003 · Paragraph 5",
+              "verificationStatus": "NEEDS_REVIEW",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-032",
+              "label": "SRC-003 · Paragraph 5",
+              "verificationStatus": "NEEDS_REVIEW",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-033",
+              "label": "SRC-005 · Page 3",
+              "verificationStatus": "NEEDS_REVIEW",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": true
+        },
+        {
+          "key": "immediate_next_actions",
+          "number": 13,
+          "title": "Immediate Next Actions",
+          "content": "Prioritized onboarding checklist for Pooja G with explicit reviewer-verified owners and target dates.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-012",
+              "label": "SRC-005 · Page 2",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            },
+            {
+              "claimId": "CLM-030",
+              "label": "SRC-004 · Section 5",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": false
+        }
+      ],
+      "nextActions": [
+        {
+          "id": "ACT-001",
+          "title": "Rotate expired staging MQTT test CA certificates & re-enable TLS port 8883 in CI",
+          "owner": "Pooja G",
+          "dueDate": "2026-11-16",
+          "priority": "Immediate",
+          "claimId": "CLM-012",
+          "completed": false
+        },
+        {
+          "id": "ACT-002",
+          "title": "Follow up with Central IT on /.well-known/openid-configuration staging endpoint",
+          "owner": "Pooja G",
+          "dueDate": "2026-11-19",
+          "priority": "Immediate",
+          "claimId": "CLM-008",
+          "completed": false
+        },
+        {
+          "id": "ACT-003",
+          "title": "Complete dual-custody HSM firmware signing key escrow transfer with Arjun Mehta",
+          "owner": "Pooja Ravi",
+          "dueDate": "2026-11-29",
+          "priority": "High",
+          "claimId": "CLM-030",
+          "completed": false
+        },
+        {
+          "id": "ACT-004",
+          "title": "Provision failover replica for campus-mqtt-01 broker before December launch",
+          "owner": "Pooja G",
+          "dueDate": "2026-12-01",
+          "priority": "High",
+          "claimId": "CLM-029",
+          "completed": false
+        }
+      ],
+      "comments": [
+        {
+          "id": "CMT-001",
+          "authorId": "usr-reviewer",
+          "authorName": "Monishwaran B",
+          "authorRole": "Project Reviewer",
+          "sectionKey": "current_status",
+          "comment": "Please resolve CONF-001 (SSO integration status) and CONF-002 (MQTT port 1883 vs 8883) in Gap & Conflict Detector before submitting for final approval.",
+          "createdAt": "2026-11-12T15:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "HND-002",
+      "projectId": "proj-sso-v1",
+      "title": "Student Portal SSO v1 Rollout — Operations Handover",
+      "version": 2,
+      "status": "SHARED",
+      "departingMemberId": "usr-arjun",
+      "departingMemberName": "Arjun Mehta",
+      "incomingMemberId": "usr-incoming",
+      "incomingMemberName": "Pooja G",
+      "incomingRole": "Incoming Operations Owner",
+      "includedSourceIds": [
+        "SRC-006"
+      ],
+      "scope": "Production OIDC Identity Operations & JWKS Key Rotation Ownership",
+      "generatedMode": "deterministic_fallback",
+      "createdBy": "Kavya Nair",
+      "createdAt": "2026-10-18T10:00:00Z",
+      "updatedAt": "2026-10-20T14:00:00Z",
+      "reviewerId": "usr-reviewer",
+      "reviewerName": "Monishwaran B",
+      "reviewedAt": "2026-10-19T16:15:00Z",
+      "reviewerDecisionNote": "All OIDC runbooks verified against production namespace identity-prod.",
+      "sharedAt": "2026-10-20T14:00:00Z",
+      "sharedBy": "Monishwaran B",
+      "sections": [
+        {
+          "key": "executive_summary",
+          "number": 1,
+          "title": "Executive Summary",
+          "content": "Student Portal SSO v1 Rollout successfully migrated 18,400 student and faculty identities from SAML 2.0 to OIDC v1.2 during the October 14 window with zero downtime.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-SSO-01",
+              "label": "SRC-006 · Page 1",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": false
+        },
+        {
+          "key": "technical_setup",
+          "number": 2,
+          "title": "Technical Setup & Key Rotation",
+          "content": "Token signing keys rotate automatically every 90 days via Cert-Manager job oidc-jwks-rotator in Kubernetes namespace identity-prod. On-call alerts route to #identity-ops-alerts.",
+          "evidenceRefs": [
+            {
+              "claimId": "CLM-SSO-02",
+              "label": "SRC-006 · Page 2",
+              "verificationStatus": "SUPPORTED",
+              "isStale": false
+            }
+          ],
+          "hasUnverifiedDetails": false
+        }
+      ],
+      "nextActions": [
+        {
+          "id": "ACT-SSO-01",
+          "title": "Verify first scheduled 90-day JWKS key rotation dry run in identity-prod",
+          "owner": "Pooja G",
+          "dueDate": "2026-11-28",
+          "priority": "Normal",
+          "completed": false
+        }
+      ],
+      "comments": []
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "AUD-307945",
+      "projectId": "proj-smart-campus",
+      "projectName": "Smart Campus Management System",
+      "userId": "usr-reviewer",
+      "userName": "Monishwaran B",
+      "userRole": "Project Reviewer",
+      "action": "Loaded Clean Demo Workspace (Smart Campus Management System)",
+      "category": "PROJECT",
+      "details": "Workspace restored to verified Round 2 demonstration baseline.",
+      "timestamp": "2026-11-14T11:55:07.945Z"
+    },
+    {
+      "id": "AUD-001",
+      "projectId": "proj-smart-campus",
+      "projectName": "Smart Campus Management System",
+      "userId": "usr-admin",
+      "userName": "Sandhya S",
+      "userRole": "Administrator",
+      "action": "Created project and assigned initial engineering leads",
+      "category": "PROJECT",
+      "targetId": "proj-smart-campus",
+      "details": "Project initialized with 5 members and target completion 2026-12-20.",
+      "timestamp": "2026-06-15T09:00:00Z"
+    },
+    {
+      "id": "AUD-002",
+      "projectId": "proj-smart-campus",
+      "projectName": "Smart Campus Management System",
+      "userId": "usr-departing",
+      "userName": "Pooja Ravi",
+      "userRole": "Departing Member",
+      "action": "Uploaded source document Smart_Campus_Architecture_Spec_v2.pdf",
+      "category": "SOURCE",
+      "targetId": "SRC-001",
+      "details": "4 pages parsed and indexed with page-level source coordinates.",
+      "timestamp": "2026-10-15T10:15:00Z"
+    },
+    {
+      "id": "AUD-003",
+      "projectId": "proj-smart-campus",
+      "projectName": "Smart Campus Management System",
+      "userId": "usr-departing",
+      "userName": "Pooja Ravi",
+      "userRole": "Departing Member",
+      "action": "Uploaded source document Sprint_14_Task_Export.csv",
+      "category": "SOURCE",
+      "targetId": "SRC-002",
+      "details": "8 task rows ingested with row-level traceability.",
+      "timestamp": "2026-10-26T14:20:00Z"
+    },
+    {
+      "id": "AUD-004",
+      "projectId": "proj-smart-campus",
+      "projectName": "Smart Campus Management System",
+      "userId": "usr-reviewer",
+      "userName": "Monishwaran B",
+      "userRole": "Project Reviewer",
+      "action": "Uploaded Weekly_Engineering_Sync_Oct28.txt",
+      "category": "SOURCE",
+      "targetId": "SRC-003",
+      "details": "6 meeting paragraphs indexed for extraction.",
+      "timestamp": "2026-10-28T17:45:00Z"
+    },
+    {
+      "id": "AUD-005",
+      "projectId": "proj-smart-campus",
+      "projectName": "Smart Campus Management System",
+      "userId": "usr-arjun",
+      "userName": "Arjun Mehta",
+      "userRole": "Departing Member",
+      "action": "Uploaded Security_Compliance_Audit_Notes.docx",
+      "category": "SOURCE",
+      "targetId": "SRC-004",
+      "details": "5 audit sections indexed.",
+      "timestamp": "2026-11-02T11:30:00Z"
+    },
+    {
+      "id": "AUD-006",
+      "projectId": "proj-smart-campus",
+      "projectName": "Smart Campus Management System",
+      "userId": "usr-departing",
+      "userName": "Pooja Ravi",
+      "userRole": "Departing Member",
+      "action": "Executed Knowledge Extraction & Cross-Document Gap Scan",
+      "category": "EXTRACTION",
+      "targetId": "proj-smart-campus",
+      "details": "Extracted 24 structured claims, flagged 2 cross-document conflicts and 2 unsupported claims.",
+      "timestamp": "2026-11-05T10:00:00Z"
+    },
+    {
+      "id": "AUD-007",
+      "projectId": "proj-smart-campus",
+      "projectName": "Smart Campus Management System",
+      "userId": "usr-reviewer",
+      "userName": "Monishwaran B",
+      "userRole": "Project Reviewer",
+      "action": "Verified claim CLM-001 against Smart_Campus_Architecture_Spec_v2.pdf",
+      "category": "CLAIM",
+      "targetId": "CLM-001",
+      "details": "Marked SUPPORTED after verifying Page 1 rationale.",
+      "timestamp": "2026-11-06T09:20:00Z"
+    },
+    {
+      "id": "AUD-008",
+      "projectId": "proj-sso-v1",
+      "projectName": "Student Portal SSO v1 Rollout",
+      "userId": "usr-reviewer",
+      "userName": "Monishwaran B",
+      "userRole": "Project Reviewer",
+      "action": "Approved and shared Handover HND-002 v2 with Pooja G",
+      "category": "APPROVAL",
+      "targetId": "HND-002",
+      "details": "Approved after runbook verification and shared to incoming operations owner.",
+      "timestamp": "2026-10-20T14:00:00Z"
+    },
+    {
+      "id": "AUD-009",
+      "projectId": "proj-smart-campus",
+      "projectName": "Smart Campus Management System",
+      "userId": "usr-reviewer",
+      "userName": "Monishwaran B",
+      "userRole": "Project Reviewer",
+      "action": "Added reviewer comment on Handover HND-001",
+      "category": "HANDOVER",
+      "targetId": "HND-001",
+      "details": "Requested resolution of CONF-001 and CONF-002 prior to approval.",
+      "timestamp": "2026-11-12T15:30:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NTF-001",
+      "projectId": "proj-smart-campus",
+      "title": "2 Critical/High Conflicts Require Reviewer Resolution",
+      "description": "CONF-001 (SSO Integration Status) and CONF-002 (MQTT Port 8883 vs 1883) detected across uploaded sources.",
+      "targetView": "conflicts",
+      "createdAt": "2026-11-12T15:30:00Z",
+      "read": false,
+      "forRoles": [
+        "Administrator",
+        "Project Reviewer",
+        "Departing Member"
+      ]
+    },
+    {
+      "id": "NTF-002",
+      "projectId": "proj-smart-campus",
+      "title": "2 Claims Have No Supporting Source Evidence",
+      "description": "CLM-016 and CLM-017 are flagged NO_EVIDENCE in the Evidence Ledger.",
+      "targetView": "evidence",
+      "createdAt": "2026-11-12T15:32:00Z",
+      "read": false,
+      "forRoles": [
+        "Administrator",
+        "Project Reviewer",
+        "Departing Member"
+      ]
+    },
+    {
+      "id": "NTF-003",
+      "projectId": "proj-sso-v1",
+      "title": "Handover HND-002 Ready for Acknowledgement",
+      "description": "Student Portal SSO v1 Rollout handover was shared with Pooja G.",
+      "targetView": "shared",
+      "createdAt": "2026-10-20T14:00:00Z",
+      "read": false,
+      "forRoles": [
+        "Incoming Member",
+        "Administrator",
+        "Project Reviewer"
+      ]
+    }
+  ]
+}

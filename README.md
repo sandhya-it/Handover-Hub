@@ -127,5 +127,3 @@ https://handover-hub-kohl.vercel.app/
 
 **Handover Hub – Never Lose Knowledge. Never Interrupt Progress.**
 ---
-
-*Built with ❤️ by Team AetherGrid.*
